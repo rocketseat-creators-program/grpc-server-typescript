@@ -1,10 +1,10 @@
 <img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-# Testes automatizados em servidores gRPC
+# Servidores gRPC com TypeScript
 
-Repositório do projeto para a aula de testes com servidores gRPC. Apresentado por [Lucas Santos][1].
+Repositório do projeto para a aula de servidores gRPC com TypeScript. Apresentado por [Lucas Santos][1].
 
-> __Atenção__: Este é o projeto completo, se você está procurando o projeto de template, vá para [este repositório](https://github.com/rocketseat-experts-club/grpc-server-test-template)
+> __Atenção__: Este é o projeto completo, se você está procurando o projeto de template, vá para [este repositório](https://github.com/rocketseat-experts-club/grpc-server-typescript-template)
 
 ## Instalação
 
@@ -12,7 +12,7 @@ Repositório do projeto para a aula de testes com servidores gRPC. Apresentado p
 2. Execute `npm start` para iniciar o servidor
 3. Execute `npm test` para rodar os testes
 
-> Veja o branch `promises` para explicações sobre como fazer os testes em promises
+> Veja o branch `promises` para mais detalhes sobre o uso de promises
 
 ## Expert
 
