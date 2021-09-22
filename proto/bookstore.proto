@@ -16,7 +16,7 @@ message Book {
   string title = 2;
   string author = 3;
   optional string image_url = 4;
-  string description = 5;
+  optional string description = 5;
   optional google.protobuf.Timestamp published_date = 6;
   optional uint32 price = 7;
   optional uint32 pages = 8;
@@ -57,7 +57,7 @@ message CreateBookRequest {
     string title = 2;
     string author = 3;
     optional string image_url = 4;
-    optional string description = 5;
+    string description = 5;
     optional google.protobuf.Timestamp published_date = 6;
     optional uint32 price = 7;
     uint32 pages = 8;
