@@ -10,6 +10,7 @@ Repositório do projeto para a aula de servidores gRPC com TypeScript. Apresenta
 
 1. Execute `npm install` na raiz
 2. Execute `npm start` para iniciar o servidor
+
 ## Expert
 
 | [<img src="https://github.com/khaosdoctor.png" width="75px;"/>][1] |
