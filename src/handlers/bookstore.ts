@@ -1,6 +1,15 @@
 import { sendUnaryData, ServerUnaryCall, StatusObject } from '@grpc/grpc-js'
 import { Empty } from 'google-protobuf/google/protobuf/empty_pb'
-import { CreateBookRequest, CreateBookResponse, DeleteBookRequest, GetBookRequest, GetBookResponse, ListBookResponse, UpdateBookRequest, UpdateBookResponse } from '../../proto/bookstore_pb'
+import {
+  CreateBookRequest,
+  CreateBookResponse,
+  DeleteBookRequest,
+  GetBookRequest,
+  GetBookResponse,
+  ListBookResponse,
+  UpdateBookRequest,
+  UpdateBookResponse
+} from '../../proto/bookstore_pb'
 import { DB } from '../db'
 import inject from '../lib/inject'
 
