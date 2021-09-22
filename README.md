@@ -12,8 +12,6 @@ Repositório do projeto para a aula de servidores gRPC com TypeScript. Apresenta
 2. Execute `npm start` para iniciar o servidor
 3. Execute `npm test` para rodar os testes
 
-> Veja o branch `promises` para mais detalhes sobre o uso de promises
-
 ## Expert
 
 | [<img src="https://github.com/khaosdoctor.png" width="75px;"/>][1] |
