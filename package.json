@@ -1,8 +1,8 @@
 {
   "name": "grpc-bookstore",
   "version": "0.0.1",
-  "description": "Projeto final da aula sobre testes com gRPC",
-  "main": "index.js",
+  "description": "Projeto final da aula sobre servidores gRPC com TypeScript",
+  "main": "dist/server.js",
   "scripts": {
     "start": "npm run build && node dist/server.js",
     "build": "tsc",
@@ -13,14 +13,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rocketseat-experts-club/grpc-server-test.git"
-  },
-  "nyc": {
-    "exclude": [
-      "**/index.js",
-      "**/db.js",
-      "**/server.js",
-      "**/*.test.*"
-    ]
   },
   "keywords": [],
   "author": "Lucas Santos <hello@lsantos.dev> (https://lsantos.dev/)",
