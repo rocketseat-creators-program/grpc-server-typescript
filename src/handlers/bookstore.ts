@@ -47,8 +47,6 @@ function DeleteBook (call: ServerUnaryCall<DeleteBookRequest, Empty>, callback: 
 }
 
 function ListBook (_: ServerUnaryCall<Empty, ListBookResponse>, callback: sendUnaryData<ListBookResponse>, database: DB) {
-  const response = new ListBookResponse()
-  response.setBooksList(database.listBooks())
   return callback(null, (new ListBookResponse()).setBooksList(database.listBooks()))
 }
 
